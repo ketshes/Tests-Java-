@@ -79,64 +79,7 @@ public class TestRunner {
         	
         }
         
-        //Result result1 = JUnitCore.runClasses(Test1.class);
-		/*
-		
-		try(FileWriter writer = new FileWriter(absoluteFilePath, false))
-        {
-          					
-			// запись всей строки
-			String testName = "Test 1-1 (dreamkas.ru tests, test case 1).";
-			writer.write(testName);
-			
-            String total1 = "Total number of tests in Test1 =  " + result1.getRunCount();
-            writer.write(total1);
-            writer.append('\n');
-            
-            String failed1 = "Total number of tests  in Test1 failed = " + result1.getFailureCount();
-            writer.write(failed1);
-            // запись по символам
-            writer.append('\n');
-           // writer.append('E');
-             
-            writer.flush();
-        }
-        catch(IOException ex){
-             
-            System.out.println(ex.getMessage());
-        } 
-		
-		
-Result result2 = JUnitCore.runClasses(Test2.class);
-		
-		
-		try(FileWriter writer = new FileWriter(absoluteFilePath, true))
-        {
-           // запись всей строки
-            String total2 = "Total number of tests in Test2 =  " + result2.getRunCount();
-            writer.write(total2);
-            writer.append('\n');
-            String fail2 = "Total number of tests  in Test2 failed = " + result2.getFailureCount();
-            writer.write(fail2);
-            // запись по символам
-            writer.append('\n');
-            //writer.append('E');
-             
-            writer.flush();
-        }
-        catch(IOException ex){
-             
-            System.out.println(ex.getMessage());
-        } 
-		
-			 
-		/*for(Failure failure : result1.getFailures())
-		{	
-		System.out.println(failure.getMessage());
-		}	
-		System.out.println(result1.wasSuccessful());
-		
-		*/
+       
 		
 		
 	}
